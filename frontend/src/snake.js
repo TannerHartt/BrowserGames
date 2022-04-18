@@ -27,7 +27,6 @@ let score = 0;
 
 function draw() { // Gameplay loop.
   changePos();
-
   let result = isGameOver();
   if (result) return;
   clearScreen();
